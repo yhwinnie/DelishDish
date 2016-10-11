@@ -11,7 +11,7 @@
         <scene sceneID="TXu-h6-Yct">
             <objects>
                 <navigationController id="Vdb-Gt-enF" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="C3d-9M-tM1">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="C3d-9M-tM1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="1" green="0.40000000000000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -37,7 +37,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7Tk-uU-NTs" id="BNn-Ug-Ptb">
-                                    <frame key="frameInset" width="375" height="99"/>
+                                    <frame key="frameInset" width="375" height="100"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
@@ -71,7 +71,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Emi-Ud-KmD" id="JNp-hP-Sad">
-                                    <frame key="frameInset" width="375" height="99"/>
+                                    <frame key="frameInset" width="375" height="100"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pyW-mk-VVC">
@@ -143,6 +143,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Write a Review" id="GeR-0P-0pa">
                         <barButtonItem key="leftBarButtonItem" title="Menu" id="Eec-ba-RXH"/>
+                        <barButtonItem key="rightBarButtonItem" title="Submit" id="Q0f-dG-Vus"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZFz-IX-LM6" userLabel="First Responder" sceneMemberID="firstResponder"/>
